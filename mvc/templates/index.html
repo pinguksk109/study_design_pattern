@@ -13,7 +13,8 @@
 
     <h2>Add New Users</h2>
     <form action="{{ url_for('add_user') }}" method="post">
-        <label for="name">Name</label>
+        <input type="text" name="name" placeholder="Enter user name">
+        <button type="submit">Add User</button>
     </form>
 </body>
 </html>
