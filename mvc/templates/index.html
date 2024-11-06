@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User List</title>
+</head>
+<body>
+    <h1>User List</h1>
+    <ul>
+        {% for user in users%}
+            <li>{{ user }}</li>
+        {% endfor %}
+    </ul>
+
+    <h2>Add New Users</h2>
+    <form action="{{ url_for('add_user') }}" method="post">
+        <label for="name">Name</label>
+    </form>
+</body>
+</html>
