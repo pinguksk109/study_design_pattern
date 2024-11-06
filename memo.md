@@ -76,3 +76,25 @@ Dependency Injection
 
 MVC（Model-View-Controller）
 アプリケーションをモデル、ビュー、コントローラーの3つの責務に分けるアーキテクチャパターン。
+
+5. そのほか
+Repository Pattern
+Specification Pattern
+Event Sourcing Pattern
+CQRS (Command Query Responsibility Segregation) Pattern
+Unit Of Work Pattern
+Observer Pattern in Reactive Programming (Reactive Observer)
+Service Locator Pattern
+Business Delegate Pattern
+Data Access Object (DAO) Pattern。
+Null Object Pattern
+Event Aggregator Pattern
+Specification Pattern
+Active Object Pattern
+Blackboard Pattern
+Interpreter Pattern (再考)
+Role Object Pattern
+Model-View-ViewModel (MVVM) Pattern
+Unit of Work Pattern
+Retry Pattern
+Scheduler Pattern
